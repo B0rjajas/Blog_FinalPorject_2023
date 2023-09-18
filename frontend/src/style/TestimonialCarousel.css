@@ -1,0 +1,46 @@
+/* TestimonialCarousel.css */
+.testimonial-carousel {
+    
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    
+  }
+  
+  .testimonial-slide {
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: center;
+    align-items: center;
+    color: black;
+    gap: 10px;
+    height: 300px;
+  }
+  
+  
+  
+  .testimonial-content img {
+    max-width: 20%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  blockquote {
+    font-size: 14px;
+    font-style: italic;
+  }
+  
+  .name {
+    font-size: 20px; 
+    font-weight: bold;
+    font-family: sans-serif;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+  

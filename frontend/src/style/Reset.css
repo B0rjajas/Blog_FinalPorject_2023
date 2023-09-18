@@ -1,0 +1,36 @@
+/* Reset CSS */
+
+/* Margins y padding en todos los elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Evita que el padding afecte el tamaño total */
+  }
+  
+  /* Establecer estilos base para los elementos de formulario */
+  input,
+  button,
+  select,
+  textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+  }
+  
+  /* Restablecer estilos de lista */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Restablecer estilos de enlace */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Restablecer estilos de encabezados */
+  h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit;
+  }
+  

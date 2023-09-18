@@ -1,0 +1,42 @@
+.contenedor {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+.titulo {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 2rem;
+    
+}
+.detalle {
+    display: flex;
+    gap: 300px; /* Espacio entre los botones */
+    flex-direction: row;
+    justify-content: flex-end; /* Centra horizontalmente los botones */
+    align-items: center; /* Centra verticalmente los botones */
+  }
+
+.espacio {
+    margin-top: 2rem;
+    
+}
+
+
+.parrafo {
+    margin-top: 1rem;
+    
+    font-family: serif;
+    
+    
+    color: black;
+    margin-bottom: 4rem;
+}
+
+
+.parrafo p {
+    color: black;
+    text-align: left;
+    font-size: 1rem;
+}

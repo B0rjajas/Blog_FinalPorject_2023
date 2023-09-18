@@ -1,0 +1,80 @@
+
+.App {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+    background-image: url(../imagenes/06.jpg);
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    padding: 0 30px 0 30px;
+    
+}
+
+
+
+.frase {
+    
+    font-size: 70px;
+    font-weight: bold;
+    font-family: serif;
+    font-style: italic;
+    text-align: center;
+    color: white;
+    
+    margin-top: 70px;
+}
+
+.newsletter-button {
+    background-color: #ff9900;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: inline-block;
+    width: 200px;
+    animation: fadeIn ease-in 0.8s; /* Aplica la animación llamada "fadeIn" */
+  }
+  
+  .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  }
+  
+
+  @media (max-width: 768px) {
+    .frase {
+    
+      font-size: 50px;
+      font-weight: bold;
+      font-family: serif;
+      font-style: italic;
+      text-align: center;
+      color: white;
+      
+      margin-top: 70px;
+  }
+  }
+
+
+  /* Definición de la animación */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0; /* Comienza con opacidad 0 */
+      transform: translateY(10px); /* Ligeramente desplazado hacia abajo */
+    }
+    100% {
+      opacity: 1; /* Llega a opacidad completa */
+      transform: translateY(0); /* Regresa a la posición original */
+    }
+  }
+  

@@ -1,0 +1,28 @@
+/* SearchList.css */
+
+.search-list {
+    margin-top: 20px;
+  }
+  
+  .result {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+  }
+  
+  .result h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .result p {
+    margin: 5px 0;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 5px;
+  }
+  

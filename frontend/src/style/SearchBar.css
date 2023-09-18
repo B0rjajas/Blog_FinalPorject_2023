@@ -1,0 +1,77 @@
+
+.form {
+    display: flex;
+    width: 300px;
+    height: 40px;
+    font-size: 15px;
+    
+    
+
+  }
+  
+  .campo {
+    flex: 1;
+    flex-direction: row;
+    
+    
+  }
+
+  .botonsearch {
+    font-size: 10px;
+    color: white;
+  }
+
+
+
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  input {
+    margin: 0;
+    
+    border-radius:      0 20px 20px 0  ;
+    
+    
+    
+  }
+  
+  
+  
+  
+  
+  
+  .boton {
+    background-color: #BADA55;
+    color: #666;
+    font: inherit;
+    font-weight: 400;
+    border-radius:      0 20px 20px 0  ;
+    width: 6rem;
+
+  }
+  
+  .campo,
+  .boton {
+    border: 1px solid rgba(147, 128, 108, .25);
+    padding: .5em .75em;
+    
+  }
+
+ 
+  
+  .campo{
+    border-right: 0;
+    border-radius: 20px 0 0 20px;
+    margin: 0;
+  }
+  
+  
+  

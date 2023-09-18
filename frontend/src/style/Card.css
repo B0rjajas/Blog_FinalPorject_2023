@@ -1,0 +1,15 @@
+/* Card.css */
+
+
+  
+  @media (min-width:768px) { 
+    .elemento {
+        display: grid;
+        grid-auto-rows: max-content;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 2rem;
+    }
+    .elemento:nth-child(3) {
+        grid-row-end: span 2;
+    }
+}

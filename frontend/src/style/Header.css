@@ -1,0 +1,89 @@
+/*Generales*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+.contenedor {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+
+.header {
+    padding-top: 2rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.hero {
+    background-image: url(../imagenes/hero.jpg);
+    background-position: center center;
+    height: 83vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+
+
+.texto h2 {
+
+    font-size: 6rem;
+    font-weight: bolder;
+    color: rgb(40, 39, 30);
+    padding: 20px;
+    padding-left: 40px;
+    text-align: left;
+    padding-bottom: 15px;
+    
+    
+    font-family: 'Noto Serif', serif;
+    
+
+}
+
+@media (max-width: 768px) {
+    .texto h2 {
+      font-size: 3rem; /* Tamaño de fuente para pantallas más pequeñas */
+    }
+
+    .hero {
+        background-image: url(../imagenes/hero.jpg);
+        background-position: center center;
+        height: 50vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        
+    }
+    
+  }
+  
+  @media (min-width: 769px) and (max-width: 1200px) {
+    .texto h2 {
+      font-size: 4rem; 
+      font-weight: bold;
+    }
+  }
+
+
+  @media (max-width: 768px) {
+    .texto h2 {
+        font-size: 3rem; /* Tamaño de fuente más pequeño para pantallas pequeñas */
+        padding: 20px; /* Ajusta el espaciado según sea necesario */
+        padding-left: 20px;
+        padding-bottom: 50px;
+    }
+}
+
